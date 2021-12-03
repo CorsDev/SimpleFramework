@@ -20,7 +20,7 @@ class App
 
             Response::make()->statusCode(HTTPStatusCodes::INTERNAL_SERVER_ERROR)->jsonBody([
                 'error' => $e->getMessage(), 'stacktrace' => $e->getTrace()
-            ]);
+            ])->sendAndDie();
 
         }
 
