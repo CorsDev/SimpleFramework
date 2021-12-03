@@ -1,0 +1,19 @@
+{
+    "name": "corsdev/simpleframework",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Giuseppe Corsino",
+            "email": "giuseppecorsino97@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "corsdev/simpleframework-core": "^0.1.0"
+    }
+}
